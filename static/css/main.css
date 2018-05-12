@@ -1,0 +1,260 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  background-color: black !important;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+body {
+  /*display: none;*/
+}
+
+a.nav-link {
+  color: white !important;
+  padding-left: 3vw !important;
+}
+
+h3 {
+  color: white !important;
+}
+
+.dropdown-menu {
+  padding: none !important;
+  background-color: black !important;
+  border: none !important;
+}
+.dropdown-item{
+  color: white !important;
+  padding-top: 1vh !important;
+}
+
+.dropdown-item:hover {
+  background-color: transparent !important;
+}
+
+.navbar {
+  z-index: 999 !important;
+  -webkit-backface-visibility: hidden !important;
+  top: inherit !important;
+}
+
+div.main {
+  height: 100%;
+}
+
+img.logo {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   /* ratio 1.6479468599 */
+   width: 40vw;
+   height: 24.2vw;
+   margin-top: -12.1vw; /* Half the height */
+   margin-left: -20vw; /* Half the width */
+}
+
+div.img {
+  height: 29vw;
+}
+
+div.first {
+  /*padding-top: 36.2vh;*/
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  /*height: 300px;*/
+}
+
+div.nav a {
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-shadow: 0px 0px 3px rgba(150, 150, 150, 1);
+  color: white !important;
+}
+
+a:hover {
+  text-shadow: 0px 1px 10px rgba(150, 150, 150, 1);
+  text-decoration: none !important;
+}
+
+div.nav {
+  padding-right: 15vw;
+  padding-left: 15vw;
+}
+
+@media screen and (max-width: 770px) {
+  img.logo {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     /* ratio 1.6479468599 */
+     width: 64vw;
+     height: 38.8vw;
+     margin-top: -30vw; /* Half the height */
+     margin-left: -32vw; /* Half the width */
+  }
+  div.img {
+    height: 38.8vw;
+    margin-bottom: 3vh;
+  }
+  div.nav {
+    padding-right: 15vw;
+    padding-left: 10vw;
+  }
+  div.top {
+    margin-top: 1.5vh;
+    text-align: right !important;
+  }
+  a {
+    font-size: 0.8em;
+  }
+}
+
+a.ilmo {
+  color: white;
+}
+
+a.ilmo:hover {
+  color: lightgrey;
+}
+
+div.section {
+  width: 100%;
+  height: 100%;
+}
+
+h1.main {
+  color: black;
+  text-shadow: 0.5px 0.5px 2px black; /*#ad080e;*/
+  font-size: 2em;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 1.5em !important;
+  text-shadow: 0px 0px 3px rgba(150, 150, 150, 1);
+  color: white !important;
+  padding-top: 2vw !important;
+  padding-bottom: 2vw !important;
+}
+
+img.flickr {
+  max-height: 21.5vw;
+  max-width: 100%;
+  margin-top: 0.2vw !important;
+  margin-bottom: 0.2vw !important;
+  border-radius: 1px;
+  -o-transition:.4s;
+  -ms-transition:.4s;
+  -moz-transition:.4s;
+  -webkit-transition:.4s;
+  transition:.4s;
+}
+
+img.flickr:hover {
+  filter: contrast(180%);
+}
+
+div.flickr-img {
+  padding: 0px 0px 0px 0px !important;
+}
+
+div.galleria {
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+div.saatio {
+  padding-top: 6vw;
+  padding-bottom: 4vw;
+  min-height: 100%;
+}
+
+div.sector {
+  padding-left: 11vw;
+  padding-right: 11vw;
+  min-height: 100%;
+  padding-bottom: 10vh;
+}
+
+div.saatio-kuvat {
+  padding-top: 16vh;
+}
+
+div.saatio-img {
+  padding-bottom: 3vh;
+}
+
+img.saatio {
+  max-height: 12vw;
+  -webkit-transition: -webkit-transform 1s ease-in-out;
+  transition: transform 1s ease-in-out;
+}
+
+img.saatio:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+@media screen and (max-width: 770px) {
+  img.flickr {
+    max-height: none;
+    max-width: 98%;
+  }
+  div.galleria {
+    padding: 0px;
+  }
+  img.saatio {
+    max-height: 35vh;
+  }
+  div.saatio-img h6 {
+    margin-top: 2vh;
+  }
+  div.saatio-kuvat {
+    padding-top: 4vh;
+  }
+}
+
+h6 {
+  color: lightgrey !important;
+  padding-top: 1vw !important;
+}
+
+p {
+  color: grey; /* !important;*/
+}
+
+blockquote p {
+  color: lightgrey;
+}
+
+div.arkkitehdiksi {
+  padding-top: 30vh;
+  padding-bottom: 8vh;
+  min-height: 100vh;
+}
+
+#galleria {
+  padding-top: 4vh;
+}
+
+h2.galleria {
+  padding-bottom: 4vh;
+  padding-top: 0vh;
+}
+
+@media screen and (max-width: 770px) {
+  img.saatio {
+    max-height: 30vh;
+  }
+  div.arkkitehdiksi {
+    padding-top: 5vh;
+  }
+  div.saatio {
+    padding-top: 5vh;
+  }
+}
+
+div.saatiokuvaus {
+  padding-bottom: 4vh;
+}

@@ -2,13 +2,15 @@ body, html {
   height: 100%;
   width: 100%;
   background-color: white !important;
-  font-family: 'Poppins', sans-serif !important;
+  font-family: 'Cutive Mono', monospace !important;
 }
 
 body {
-  background-image: url("../img/water.jpg"); /*, linear-gradient(white, transparent);
-  /**background-repeat: no-repeat;**/
-
+  background-image: url("../img/water.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h3 {
@@ -20,27 +22,14 @@ div.main {
 }
 
 div.first {
-  /*padding-top: 36.2vh;*/
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-  /*height: 300px;*/
 }
 
 div.nav {
   padding-right: 15vw;
   padding-left: 15vw;
-}
-
-@media screen and (max-width: 770px) {
-  div.nav {
-    padding-right: 15vw;
-    padding-left: 10vw;
-  }
-  div.top {
-    margin-top: 1.5vh;
-    text-align: right !important;
-  }
 }
 
 div.section {

@@ -8,7 +8,7 @@ function addPercentage() {
   $.ajax(parameters).done(function (data) {
     var percentage = data[0].PrecipitationProbability;
     var node = document.createElement("H3");
-    var textnode = document.createTextNode("Tällä hetekllä vituttaa " + percentage + " prosenttisesti.");
+    var textnode = document.createTextNode("Tällä hetkellä vituttaa " + percentage + " prosenttisesti.");
     node.appendChild(textnode);
     document.getElementById("vituttaa").appendChild(node);
   });
